@@ -8,10 +8,9 @@ package com.company;
 
 public class Main
 {
-
     public static void main(String[] args)
     {
-
+        //main classssss
 // below is printing the directions along with a brief description of the program itself
         System.out.println("Welcome to UMBCravings!");
         System.out.println("This program will ask you several questions to help you decide where to eat during the current meal period.");

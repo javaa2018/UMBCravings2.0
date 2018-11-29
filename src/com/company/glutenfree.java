@@ -20,8 +20,6 @@ public class glutenfree
         else
             System.out.println("Thank you for your input. Please continue to the next question.\n"); //have this print out at the end somehow, also if not gluten free
 
-
-
     }
 
 }
