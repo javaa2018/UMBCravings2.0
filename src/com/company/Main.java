@@ -2,12 +2,11 @@
 Team Error Terror
 Gabi, Tanu, Nina
 IS 147 Final Project
-Deadline --> 12/9
+Presentation Dec 6
  */
 package com.company;
 
-public class Main
-{
+public class Main{
 
     public static void main(String[] args)
     {
