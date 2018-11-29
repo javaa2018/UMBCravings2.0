@@ -3,6 +3,7 @@ Team Error Terror
 nsmilek1@umbc.edu
 watson7@umbc.edu
 tdave1@umbc.edu
+
 Gabi, Tanu, Nina
 IS 147 Final Project
 Presentation Dec 6
