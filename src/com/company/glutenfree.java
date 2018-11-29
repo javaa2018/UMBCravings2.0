@@ -18,8 +18,8 @@ public class glutenfree
         if (glutenFreeAnswer.equals(yes))  //make a international and gluten free string
             System.out.println("Here are some gluten free options\n"); //have this print out at the end of questions
         else
-            System.out.println("Non-gluten free options\n"); //have this print out at the end somehow, also if not gluten free
-        //will show non gluten free options
+            System.out.println("Thank you for your input. Please continue to the next question.\n"); //have this print out at the end somehow, also if not gluten free
+
 
 
     }

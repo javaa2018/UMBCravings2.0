@@ -21,10 +21,20 @@ public class Main
         System.out.println("--------------------------");
 
  //calling other classes and methods into main method in order to make the code easier to read
+
+        // insert the random class that will allow the user to have a random selection for food
+
+
+        //gluten free class --> asks the question and gives food options
         glutenfree glutenfree= new glutenfree();
         glutenfree.gf(); //calling method
+
+        //veggie class --> asks the question and gives food options
         Veggie veggie=new Veggie();
         veggie.veggie();
+
+        International international =new International();
+        international.foreign();
 
     }
 
