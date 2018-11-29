@@ -11,6 +11,8 @@ public class RandomFood {
         //make the yes/no strings global variables so they are accessible everywhere
         String yes = "yes".toLowerCase();
         //String no = "no";
+
+
         Scanner user = new Scanner(System.in);
         System.out.println("Would you like to randomly select a food option for the current meal period?");
         String randomAnswer = user.nextLine();
