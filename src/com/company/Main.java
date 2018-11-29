@@ -41,6 +41,8 @@ public class Main{
         dairy.cow();
 
         //menu class --> must be at the very end
+        Menu menu = new Menu();
+        menu.information();
 
     }
 

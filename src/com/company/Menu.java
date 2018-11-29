@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Menu
 {
-    void instructions
+    void information()
 
     {
         System.out.println("Now that you have answered all the questions and have seen the possible food ");
@@ -14,39 +14,50 @@ public class Menu
 
         Scanner user = new Scanner(System.in);
         System.out.println("Please type in the number below that correlates with the chart above to get more information:");
-        String foodAnswer = user.nextLine();
+        int foodAnswer = user.nextInt();
+
         String foodString;
+
+        //switch statement here that gives certain information on places based on the number the user inputs
         switch (foodAnswer) {
-            case 1:
-                foodString = "2mato";
+            case 1: foodString = "2mato";
+            //insert the meal plan options
                 break;
-            case 2:
+            case 2: foodString = "Starbucks";
+            //insert meal options and other details like times
                 break;
-            case 3:
+            case 3: foodString = "Chick-fil-la";
+            //insert meal options
                 break;
-            case 4:
+            case 4: foodString = "Hisho";
+            //meal plan and times
                 break;
-            case 5:
+            case 5: foodString = "Wild Greens";
+                //meal plan and times
                 break;
-            case 6:
+            case 6: foodString = "Mondo";
+                //meal plan and times
                 break;
-            case 7:
+            case 7: foodString = "Pollo";
+                //meal plan and times
                 break;
-            case 8:
+            case 8: foodString = "Masala";
+                //meal plan and times
                 break;
-            case 9:
+            case 9: foodString = "Salsaritas";
+                //meal plan and times
                 break;
-            case 10:
+            case 10: foodString = "Einsteins";
+                //meal plan and times
                 break;
-            case 11:
-                break;
-            case 12:
+            case 11: foodString = "Au Bon Pain";
+                //meal plan and times
                 break;
             default: foodString = "Invalid input";
                 break;
         }
                 System.out.println(foodString);
 
-    //switch statement here that gives certain information on places based on the number the user inputs
+
     }
 }
