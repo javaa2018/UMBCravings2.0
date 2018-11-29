@@ -2,15 +2,15 @@
 Team Error Terror
 Gabi, Tanu, Nina
 IS 147 Final Project
-
+Presentation Dec 6
  */
 package com.company;
 
-public class Main
-{
+public class Main{
+
     public static void main(String[] args)
     {
-        //main classssss
+
 // below is printing the directions along with a brief description of the program itself
         System.out.println("Welcome to UMBCravings!");
         System.out.println("This program will ask you several questions to help you decide where to eat during the current meal period.");
@@ -35,6 +35,14 @@ public class Main
         //international/foreign food class --> asks the question and gives food options
         International international = new International();
         international.foreign();
+
+        //dairy class --> be sure to thank them at the very end for their participation
+        Dairy dairy = new Dairy();
+        dairy.cow();
+
+        //menu class --> must be at the very end
+        Menu menu = new Menu();
+        menu.information();
 
     }
 

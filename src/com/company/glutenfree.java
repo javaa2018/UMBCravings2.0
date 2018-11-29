@@ -15,11 +15,13 @@ public class glutenfree
         System.out.println("Are you gluten free?");
         String glutenFreeAnswer = user.nextLine();
 
-        if (glutenFreeAnswer.equals(yes))  //make a international and gluten free string
+        if (glutenFreeAnswer.equals(yes)) {
             System.out.println("Here are some gluten free options\n"); //have this print out at the end of questions
-        else
+        }else {
             System.out.println("Thank you for your input. Please continue to the next question.\n"); //have this print out at the end somehow, also if not gluten free
 
+
+        }
     }
 
 }
