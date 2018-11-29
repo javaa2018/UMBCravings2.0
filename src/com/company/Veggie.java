@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Veggie {
 
     void veggie()
-    { //make it public and put it the veggie class??
+    {
 
         //make the yes/no strings global variables so they are accessible everywhere
         String yes = "yes".toLowerCase();
@@ -15,7 +15,7 @@ public class Veggie {
         String vegAnswer = user.nextLine();
 
         if (vegAnswer.equals(yes))
-        { //make a international and gluten free string
+        {
             System.out.println("Are you a vegan?");
             String veganAnswer = user.nextLine();
             if (veganAnswer.equals(yes))
