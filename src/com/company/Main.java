@@ -1,6 +1,7 @@
 /*
 Team Error Terror
 Gabi, Tanu, Nina
+IS 147 Final Project
 
  */
 package com.company;
