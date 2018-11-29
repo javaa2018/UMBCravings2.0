@@ -5,7 +5,6 @@ public class Veggie {
 
     void veggie()
     {
-
         //make the yes/no strings global variables so they are accessible everywhere
         String yes = "yes".toLowerCase();
         //String no = "no";
@@ -27,13 +26,3 @@ public class Veggie {
             System.out.println("Here are some options");
     }
 }
-
-
-
-
-
-
-//will have the veggie method and call things from the main class
-//want to reference the main and have print statement in the main
-//will have if else or switch statement
-//maybe also an array?
