@@ -20,7 +20,7 @@ public class Veggie {
             if (veganAnswer.equals(yes))
                 System.out.println("Here are some vegan options");
             else
-                System.out.println("Vegetarian options\n"); //have string print this out at the very end not sure how to do this!
+                System.out.println("Vegetarian options\n"); //have string print this out at the very end
 
         } else
             System.out.println("Here are some options");
