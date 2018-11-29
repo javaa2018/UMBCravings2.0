@@ -14,7 +14,7 @@ public class International {
         System.out.println("Do you like foreign food?");
         String internationalAnswer = user.nextLine();
 
-        if (internationalAnswer.equals(yes))  //make a international and gluten free string
+        if (internationalAnswer.equals(yes))  //use logical operators to create new conditional boolean
                     System.out.println("Here are some international food options on campus\n"); //have this print out at the end of questions
                 else
                    System.out.println("Thank you for your input. Please continue with the following questions,\n"); //have this print out at the end somehow, also if not gluten free
