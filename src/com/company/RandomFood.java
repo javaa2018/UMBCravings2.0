@@ -17,10 +17,12 @@ public class RandomFood {
 
         //insert an array here for the random food selection option
 
-        if (randomAnswer.equals(yes))  //if the user choose yes
+        if (randomAnswer.equals(yes)) {//if the user choose yes
             System.out.println("You should eat at...\n"); //have this print out if they answer yes
+            // have something that will terminate the program if they answer yes
+            System.exit(0);
+        }
 
-            //have something that will terminate the program if they answer yes
         //have it call the food options class into it so it may give them more information on the food option
         else
             System.out.println("No? Then please continue onto the next question.\n"); //will appear if they chose the option no
