@@ -37,6 +37,8 @@ public class Main{
         international.foreign();
 
         //dairy class --> be sure to thank them at the very end for their participation
+        Dairy dairy = new Dairy();
+        dairy.cow();
 
         //menu class --> must be at the very end
 
