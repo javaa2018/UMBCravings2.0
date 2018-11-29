@@ -13,7 +13,7 @@ public class Menu
         //insert an array here with numbers and restuarants so 2 rows and 12 columns --> remember array index starts at 0
 
         Scanner user = new Scanner(System.in);
-        System.out.println("Please type in the number below that correlates with the chart above to get more information:");
+        System.out.println("Please type in the number below that correlates with the chart above to get more information:"); //also show which one is which 1= what
         int foodAnswer = user.nextInt();
 
         String foodString;
