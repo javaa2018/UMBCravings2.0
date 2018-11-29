@@ -15,9 +15,9 @@ public class International {
         String internationalAnswer = user.nextLine();
 
         if (internationalAnswer.equals(yes))  //make a international and gluten free string
-            System.out.println("Here are some international food options on campus\n"); //have this print out at the end of questions
-        else
-            System.out.println("Thank you for your input\n"); //have this print out at the end somehow, also if not gluten free
-        //will show non gluten free options
+                    System.out.println("Here are some international food options on campus\n"); //have this print out at the end of questions
+                else
+                   System.out.println("Thank you for your input. Please continue with the following questions,\n"); //have this print out at the end somehow, also if not gluten free
+                //will show non gluten free options
     }
 }
