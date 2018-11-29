@@ -7,7 +7,7 @@ public class International {
     void foreign() { // foreign/international places to eat on campus
 
         //make the yes/no strings global variables so they are accessible everywhere
-        String yes = "yes";
+        String yes = "Yes".toLowerCase();
         //String no = "no";
 
         Scanner user = new Scanner(System.in);

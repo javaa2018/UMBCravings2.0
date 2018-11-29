@@ -8,7 +8,7 @@ public class glutenfree
     void gf() //gluten free string
     {
         //make the yes/no strings global variables so they are accessible everywhere
-        String yes = "yes";
+        String yes = "yes".toLowerCase();
         //String no = "no";
 
         Scanner user = new Scanner(System.in);

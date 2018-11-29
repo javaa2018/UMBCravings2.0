@@ -7,7 +7,7 @@ public class Veggie {
     { //make it public and put it the veggie class??
 
         //make the yes/no strings global variables so they are accessible everywhere
-        String yes = "yes";
+        String yes = "yes".toLowerCase();
         //String no = "no";
 
         Scanner user = new Scanner(System.in);
