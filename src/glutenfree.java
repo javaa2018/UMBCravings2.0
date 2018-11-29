@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class glutenfree
 {
+    //hello its me!
     //do i need a main in this?
     void gf() //gluten free string
     {
