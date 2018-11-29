@@ -16,7 +16,7 @@ public class Main
 
         System.out.println("Please answer the following questions yes or no:");
         System.out.println("--------------------------");
-        glutenfree glutenfree= new glutenfree(); //ask why it is red
+        glutenfree glutenfree= new glutenfree();
         glutenfree.gf(); //calling method
         Veggie veggie=new Veggie();
         veggie.veggie();
