@@ -9,7 +9,7 @@ public class Menu
     {
         System.out.println("Now that you have answered all the questions and have seen the possible food ");
         System.out.println("options here on campus you probably want some more information on the establishments.");
-        System.out.print("--------------------------------------------------------");
+        System.out.println("--------------------------------------------------------");
         //insert an array here with numbers and restuarants so 2 rows and 12 columns --> remember array index starts at 0
 
         Scanner user = new Scanner(System.in);
