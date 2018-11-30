@@ -3,7 +3,7 @@ package com.company;
 public class Diet {
     //use setters and getters
     //set the time and date
-    //dont' pull actual date
+    //don't pull actual date
     //have one default location for the constructor
     //overload with all the different places
     //look at birthday class for this in github!

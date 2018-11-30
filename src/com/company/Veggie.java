@@ -18,11 +18,11 @@ public class Veggie {
             System.out.println("Are you a vegan?");
             String veganAnswer = user.nextLine();
             if (veganAnswer.equals(yes))
-                System.out.println("Here are some vegan options");
+                System.out.println("Vegan options.\n"); //not sure if we're printing out the vegan options here or at the very end
             else
                 System.out.println("Vegetarian options\n"); //have string print this out at the very end
 
         } else
-            System.out.println("Here are some options");
+            System.out.println("Thank you for your input. Please continue to the next question.\n"); //will take user input and show places they can eat
     }
 }

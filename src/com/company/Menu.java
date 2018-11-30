@@ -26,16 +26,16 @@ public class Menu
             case 2: foodString = "Starbucks";
             //insert meal options and other details like times
                 break;
-            case 3: foodString = "Chick-fil-la";
+            case 3: foodString = "Chick-fil-a";
             //insert meal options
                 break;
-            case 4: foodString = "Hisho";
+            case 4: foodString = "Hissho";
             //meal plan and times
                 break;
             case 5: foodString = "Wild Greens";
                 //meal plan and times
                 break;
-            case 6: foodString = "Mondo";
+            case 6: foodString = "Mondos";
                 //meal plan and times
                 break;
             case 7: foodString = "Pollo";
