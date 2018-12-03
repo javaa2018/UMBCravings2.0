@@ -2,7 +2,8 @@ package com.company;
 
 public class Diet {
     /*
-    //data atribute of employees
+    *from employee class has encapsulation
+    *data atribute of employees
     private String phoneNumber; //put default phone number, why is it in grey is it becuase of phone number?
     private Address address; //have default location, something is wrong with address
     private String restaurantName; // restuarant name
@@ -46,38 +47,8 @@ public class Diet {
         System.out.println(address+restaurantName+phoneNumber); //will print out the address restuarnat name and phone number
         System.out.println();
     }
-  */
-    /* put this in separate
-    public class Address {
-        private String houseNumber;
-        private String address1;
-        private String address2;
-        private String city;
-        private String state;
-        private String zipcode;
 
-        public Address(String houseNum, String address1, String address2,
-                       String city, String state, String zip)
-        {
-            houseNumber = houseNum;
-            this.address1 = address1;
-            this.address2 = address2;
-            this.city = city;
-            this.state = state;
-            this.zipcode = zip;
-        }
-        public Address(String houseNum, String address1,
-                       String city, String state, String zip)
-        {
-            houseNumber = houseNum;
-            this.address1 = address1;
-            this.address2 = "";
-            this.city = city;
-            this.state = state;
-            this.zipcode = zip;
-        }
-
-    }
+   */
 
     //have method overloading down here
 
@@ -92,3 +63,4 @@ public class Diet {
     //maybe have a while loop
     // employee.java file encapsulation
 
+}

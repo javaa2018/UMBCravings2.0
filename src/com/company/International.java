@@ -3,13 +3,11 @@ package com.company;
 import java.util.Scanner;
 
 public class International {
+    static String yes = "Yes".toLowerCase(); //check to see if made it global do i have to repeat?
 
     void foreign() { // foreign/international places to eat on campus
     //have private methods in here somewhere
-
-        //make the yes/no strings global variables so they are accessible everywhere
-        String yes = "Yes".toLowerCase();
-        //String no = "no";
+        // String no = "no"; do we need a no here?? i don't think we do
 
         Scanner user = new Scanner(System.in);
         System.out.println("Do you like foreign food?");

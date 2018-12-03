@@ -3,10 +3,12 @@ import java.util.Scanner;
 
 public class Veggie {
 
+    static String yes = "Yes".toLowerCase();
+
     void veggie()
     {
         //make the yes/no strings global variables so they are accessible everywhere
-        String yes = "yes".toLowerCase();
+
         //String no = "no";
 
         Scanner user = new Scanner(System.in);

@@ -3,12 +3,11 @@ package com.company;
 import java.util.Scanner;
 
 public class Dairy {
+    static String no="no".toLowerCase();
 
     void cow() { // foreign/international places to eat on campus
 
         //make the yes/no strings global variables so they are accessible everywhere
-        //String yes = "Yes".toLowerCase();
-        String no = "No".toLowerCase();
 
         Scanner user = new Scanner(System.in);
         System.out.println("Can you have dairy?");

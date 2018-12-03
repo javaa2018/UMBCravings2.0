@@ -7,11 +7,11 @@ put all the food options in an array
 make it time dependent, so that there is only certain options based on time
 */
 public class RandomFood {
-    void random(){
-        //make the yes/no strings global variables so they are accessible everywhere
-        String yes = "yes".toLowerCase();
-        //String no = "no";
 
+    static String yes="Yes".toLowerCase();
+
+    void random(){
+        //make the yes/ strings global variables so they are accessible everywhere
 
         Scanner user = new Scanner(System.in);
         System.out.println("Would you like to randomly select a food option for the current meal period?");
