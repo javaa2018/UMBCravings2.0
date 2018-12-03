@@ -12,9 +12,14 @@ public class Menu
         System.out.println("--------------------------------------------------------");
         //insert an array here with numbers and restuarants so 2 rows and 12 columns --> remember array index starts at 0
 
+        //foodTable[][] = {{1,2,3,4,5,6,7,8,9,10,11} , {2mato,Starbucks,Chick-fil-la,Hissho,Wild Greens, Mondos, Pollo, Masala,Salsaritas, Einsteins, Au Bon Pain}};
+
+        //System.out.println(foodTable[][]);
+
         Scanner user = new Scanner(System.in);
         System.out.println("Please type in the number below that correlates with the chart above to get more information:"); //also show which one is which 1= what
         int foodAnswer = user.nextInt();
+
 
         String foodString;
 
