@@ -19,7 +19,7 @@ public class RandomFood {
 
         //insert an array here for the random food selection option
 
-        if (randomAnswer.equals(yes)) {//if the user choose yes
+        if (randomAnswer.equals(yes)) {//if the user chooses yes, no restriction for time?
             System.out.println("You should eat at...\n"); //have this print out if they answer yes
             // have something that will terminate the program if they answer yes
             System.exit(0);

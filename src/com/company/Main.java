@@ -25,7 +25,7 @@ public class Main {
         date.set(Calendar.SECOND, 0);
 
 // below is printing the directions along with a brief description of the program itself
-        System.out.println("Welcome to UMBCravings!");
+        System.out.println("Welcome to UMBCravings!\n");
         System.out.println("This program will ask you several questions to help you decide where to eat during the current meal period");
         System.out.println("It is " + date.getTime() + " so the current meal period is lunch from 11-4pm");
         System.out.println("Please follow the directions below."); //can we delete this?
