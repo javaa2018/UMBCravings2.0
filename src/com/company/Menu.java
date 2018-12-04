@@ -1,6 +1,6 @@
 package com.company;
 
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.Scanner;
 
 public class Menu {
@@ -26,59 +26,59 @@ public class Menu {
             int foodAnswer = user.nextInt();
 
 
-            String foodString;
+
 
             //switch statement here that gives certain information on places based on the number the user inputs
             switch (foodAnswer) {
                 case 1:
-                    foodString = "2mato";
-                    //insert the meal plan options
+                    System.out.println("2mato");
+                    //insert meal options and other details like times
                     break;
                 case 2:
-                    foodString = "Starbucks";
+
                     //insert meal options and other details like times
                     break;
                 case 3:
-                    foodString = "Chick-fil-a";
+                    System.out.println("Chick-fil-a");
                     //insert meal options
                     break;
                 case 4:
-                    foodString = "Hissho";
+                    System.out.println("Hissho");
                     //meal plan and times
                     break;
                 case 5:
-                    foodString = "Wild Greens";
+                    System.out.println("Wild Greens");
                     //meal plan and times
                     break;
                 case 6:
-                    foodString = "Mondos";
+                    System.out.println("Mondos");
                     //meal plan and times
                     break;
                 case 7:
-                    foodString = "Pollo";
+                    System.out.println("Pollo");
                     //meal plan and times
                     break;
                 case 8:
-                    foodString = "Masala";
+                    System.out.println("Masala");
                     //meal plan and times
                     break;
                 case 9:
-                    foodString = "Salsaritas";
+                    System.out.println("Salsaritas");
                     //meal plan and times
                     break;
                 case 10:
-                    foodString = "Einsteins";
+                    System.out.println("Einsteins");
                     //meal plan and times
                     break;
                 case 11:
-                    foodString = "Au Bon Pain";
+                    System.out.println("Au Bon Pain");
                     //meal plan and times
                     break;
                 default:
-                    foodString = "Invalid input";
+                    System.out.println("Invalid input");
                     break;
             }
-            System.out.println(foodString);
+
 
         }
 
