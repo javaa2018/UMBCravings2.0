@@ -2,6 +2,7 @@ package com.company;
 
 public class Address {
     /*
+    *delete this
         private String address1;
         private String city;
         private String state;

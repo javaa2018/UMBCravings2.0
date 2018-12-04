@@ -16,7 +16,7 @@ public class glutenfree
         String glutenFreeAnswer = user.nextLine();
 
         if (glutenFreeAnswer.equals(yes)) {
-            System.out.println("Gluten free inputs.\n"); //have this print out at the end of questions, is it going to show just gluten free options or gluten free at end+ everyting else
+            System.out.println("Gluten free inputs.\n"); //have gluten free establishments here, fill in
         }else {
             System.out.println("Thank you for your input. Please continue to the next question.\n"); //have this print out at the end somehow, also if not gluten free
 

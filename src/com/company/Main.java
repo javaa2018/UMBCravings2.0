@@ -50,6 +50,8 @@ public class Main{
         Menu menu = new Menu();
         menu.information();
 
+        Subclass s= new Subclass("umbcrd@umbc.edu"); //subclass for nutritionists info to contact, can be moved somewhere else but should be near the end before the thank you
+        s.getEmail();
     }
 
 

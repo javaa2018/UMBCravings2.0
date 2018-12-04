@@ -2,6 +2,8 @@ package com.company;
 
 public class Diet {
     /*
+    *vegetarian, glutenfree call in here, call the diet class into the main class
+    *
     *from employee class has encapsulation
     *data atribute of employees
     private String phoneNumber; //put default phone number, why is it in grey is it becuase of phone number?
@@ -51,7 +53,6 @@ public class Diet {
    */
 
     //have method overloading down here
-
     //set the time and date
     //don't pull actual date
     //have one default location for the constructor
