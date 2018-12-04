@@ -20,10 +20,13 @@ public class Veggie {
             System.out.println("Are you a vegan?");
             String veganAnswer = user.nextLine();
             if (veganAnswer.equals(yes))
-                System.out.println("Vegan options.\n"); //not sure if we're printing out the vegan options here or at the very end
+                System.out.println("Vegan options.\n");
+            //options->wild greens w/beans or tofu, oil & vinegar for dressing, 2mato veggie pasta, salsaritas veggie taco, burrito, or bowl
+            //mondos veggie sandwitch black bean or unlimited toppings, masala
             else
                 System.out.println("Vegetarian options\n"); //have string print this out at the very end
-
+                //wildgreens w/beans or tofu, hissho sushi(imitation crab or avacado)or tofu option, 2mato (veggie pasta, veggie pizza, cheese calzone)
+                //moondos, masala
         } else
             System.out.println("Thank you for your input. Please continue to the next question.\n"); //will take user input and show places they can eat
     }

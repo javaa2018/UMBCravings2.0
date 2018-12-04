@@ -54,9 +54,6 @@ public class Main {
         Dairy dairy = new Dairy();
         dairy.cow();
 
-
-        System.out.println("The time is "+ date.getTime()+" so you can eat at these places");
-
         //menu class --> must be at the very end
         Menu menu = new Menu();
         menu.information();

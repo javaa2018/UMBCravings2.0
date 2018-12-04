@@ -17,6 +17,7 @@ public class glutenfree
 
         if (glutenFreeAnswer.equals(yes)) {
             System.out.println("Gluten free inputs.\n"); //have gluten free establishments here, fill in
+            //wildgreens, salsaritas burrito bowl, hisho suhi,
         }else {
             System.out.println("Thank you for your input. Please continue to the next question.\n"); //have this print out at the end somehow, also if not gluten free
 
