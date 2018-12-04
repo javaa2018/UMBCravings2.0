@@ -3,9 +3,12 @@ package com.company;
 public class Diet {
     /*
     *vegetarian, glutenfree call in here, call the diet class into the main class
+    * something.glutenFree
     *
     *from employee class has encapsulation
     *data atribute of employees
+    *
+    * have public abstract class estName  put in separate class!!
     private String phoneNumber; //put default phone number, why is it in grey is it becuase of phone number?
     private Address address; //have default location, something is wrong with address
     private String restaurantName; // restuarant name

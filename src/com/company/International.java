@@ -3,7 +3,7 @@ package com.company;
 import java.util.Scanner;
 
 public class International {
-    static String yes = "Yes".toLowerCase(); //check to see if made it global do i have to repeat?
+    static String yes = "Yes".toLowerCase();
 
     void foreign() { // foreign/international places to eat on campus
     //have private methods in here somewhere

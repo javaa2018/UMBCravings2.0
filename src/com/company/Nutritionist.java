@@ -1,6 +1,6 @@
 package com.company;
 /*
-*Super class
+*Super class for nutrionist information
  */
 class Nutritionist
 {
@@ -9,10 +9,10 @@ class Nutritionist
     Nutritionist(String email)
     {
 
-        this.email=email; //referes to email object from within a constructor
+        this.email=email; //this keyword refere to email object from within a constructor
     }
 
-    public void getEmail()
+    public void getEmail() //getter
     { //getter for email
         System.out.println("\nHere's UMBC's nutritionist, Nicole Arcilla's email if you want to learn more: " +email);
     }

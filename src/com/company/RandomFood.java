@@ -8,7 +8,7 @@ make it time dependent, so that there is only certain options based on time
 */
 public class RandomFood {
 
-    static String yes="Yes".toLowerCase();
+    static String yes="Yes".toLowerCase(); //static variable
 
     void random(){
         //make the yes/ strings global variables so they are accessible everywhere
