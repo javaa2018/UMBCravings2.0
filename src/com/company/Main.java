@@ -17,6 +17,7 @@ import java.util.Calendar; //calendar
 public class Main {
 
     public static void main(String[] args) {
+
         //prints out date and time, need to put constricitons of time in the loops
         Calendar date = Calendar.getInstance(); //see if can have in separate time class instead of in main, might need in main though b/c gets angry
         date.set(Calendar.HOUR_OF_DAY, 11); //11 pm
@@ -25,8 +26,9 @@ public class Main {
 
 // below is printing the directions along with a brief description of the program itself
         System.out.println("Welcome to UMBCravings!");
-        System.out.println("This program will ask you several questions to help you decide where to eat during the current meal period.");
-        System.out.println("Please follow the directions below.");
+        System.out.println("This program will ask you several questions to help you decide where to eat during the current meal period");
+        System.out.println("It is " + date.getTime() + " so the current meal period is lunch from 11-4pm");
+        System.out.println("Please follow the directions below."); //can we delete this?
         System.out.println("Please carefully read the following questions, then answer either yes or no:");
         System.out.println("--------------------------");
 
