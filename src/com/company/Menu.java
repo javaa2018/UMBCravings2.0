@@ -16,9 +16,10 @@ public class Menu {
 
 
         //loop for displaying the array
-        for (int i = 0; i < foodTable.length; i++){
+        for (int i = 0; i < foodTable.length; i++)
+        {
             System.out.println(foodTable[i]);
-    }
+        }
             Scanner user = new Scanner(System.in);
             System.out.println("Please type in the number below that correlates with the chart above to get more information:"); //also show which one is which 1= what
             int foodAnswer = user.nextInt();
@@ -39,7 +40,7 @@ public class Menu {
                     System.out.println("NOTE!! Starbucks is a breakfast place, however you can order food during all open hours");
                     System.out.println(" "); //space to make things a little neater
                     System.out.println("This place is located in the University Center");
-                    System.out.println("Open: Monday - Thursday @ 7:30 am - 10 pm" + "Friday 7:30 am-10 pm & Sunday 2 pm-8 pm ");
+                    System.out.println("Open: Monday - Thursday @ 7:30 am - 10 pm" + ", Friday 7:30 am-10 pm, & Sunday 2 pm-8 pm ");
                     System.out.println("Food options include:");
                     System.out.println("Oatmeal");
                     System.out.println("Croissant with a basic coffee ");
@@ -50,19 +51,19 @@ public class Menu {
                     System.out.println("NOTE!! Menu is subject to change based on the time of day");
                     System.out.println(" ");//space to make things easier to read
                     System.out.println("This place is located in the University Center");
-                    System.out.println("Open: Monday - Thursday @ 7:30 am - 8 pm" + " Friday 7:30 am - 4 pm");
+                    System.out.println("Open: Monday - Thursday @ 7:30 am - 8 pm" + ", Friday 7:30 am - 4 pm");
                     System.out.println("Food options include:");
                     System.out.println("Chick-fil-la sandwiches and side (fries, fruit, or hash browns) with drink");
                     break;
                 case 4:
                     System.out.println("Hissho");
                     System.out.println("This place is located in Commons on Level 2");
-                    System.out.println("Open: Monday - Thursday @ 11 am -8pm" +" Friday 11 am- 6 pm & Sunday 12pm - 6pm" + "\n");
+                    System.out.println("Open: Monday - Thursday @ 11 am -8pm" +", Friday 11 am- 6 pm,  & Sunday 12pm - 6pm" + "\n");
                     System.out.println("Food options include:" );
-                    double flex = 6.10 + 2;
+                    double flex = 6.10 + 2; //need a math class!
                     // System.out.println("");
                     System.out.println("The meal above will go over into your flex dollars and make your total " + flex + " which is 2 dollars above the meal plan cost" );
-                   // System.out.println("");
+                   // System.out.println(""); //sushi w/ drink or fried rice, brown or white w/ protein/tofu goes over
                     //System.out.println("");
                     break;
                 case 5:

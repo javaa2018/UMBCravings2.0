@@ -18,16 +18,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //prints out date and time, need to put constricitons of time in the loops
-        Calendar date = Calendar.getInstance(); //see if can have in separate time class instead of in main, might need in main though b/c gets angry
-        date.set(Calendar.HOUR_OF_DAY, 11); //maybe just display current time this sets the time and date
+        Calendar date = Calendar.getInstance();
+        /*date.set(Calendar.HOUR_OF_DAY, 11);
+        *delete this later
         date.set(Calendar.MINUTE, 00);
         date.set(Calendar.SECOND, 0);
+        */
 
 // below is printing the directions along with a brief description of the program itself
         System.out.println("Welcome to UMBCravings!\n");
         System.out.println("This program will ask you several questions to help you decide where to eat during the current meal period");
-        System.out.println("It is " + date.getTime() + " so the current meal period is lunch from 11-4pm");
+        System.out.println("It is " + date.getTime() + " so the current meal period is dinner from 4:30-8pm");
         System.out.println("Please carefully read the following questions, then answer either yes or no:");
         System.out.println("--------------------------");
 
@@ -57,22 +58,19 @@ public class Main {
         Menu menu = new Menu();
         menu.information();
 
-        //object created subclass
+        String a1 = "1000 Hilltop Circle UMBC Commons, Baltimore MD 21250"; //address string
+
+        Food f1 = new Food ("Wild Greens", "443-612-8380",  a1); //food object for gluten free
+        Food f2 = new Food ("Au Bon Pain", "443-612-3663", a1);
+        System.out.println("\nHere are the locations & phone numbers where you can eat gluten free");
+        f1.printFood();
+        f2.printFood();
+
+        //object created called subclass
         Subclass s = new Subclass("umbcrd@umbc.edu"); //subclass for nutritionists info to contact, can be moved somewhere else but should be near the end before the thank you
         s.getEmail(); //method passing argument by value
 
-        /*maybe have print line somewhere else in food class and call in the main??
-        Address a1 = new Address("321", "Juniper Street", "Seattle", "WA", "12345");
-        Address a2 = new Address("123", "North Main Street", "Willoughby", "OH", "54321");
 
-
-        Food ee1 = new Food("Salsaritas", "717-555-1212", a1);
-        Food ee2 = new Food("Pollo", "717-543-212", a2);
-
-        ee1.printFood();
-        System.out.println();
-        ee1.printFood();
-        */
 
     }
 }

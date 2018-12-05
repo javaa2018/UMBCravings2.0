@@ -2,10 +2,9 @@ package com.company;
 
 import java.util.Scanner;
 
-/*use random from the math class
-put all the food options in an array
-make it time dependent, so that there is only certain options based on time
-*/
+/*
+* Is there supposed to be a math class in here?
+ */
 public class RandomFood {
 
     static String yes="Yes".toLowerCase(); //static variable
@@ -24,7 +23,7 @@ public class RandomFood {
             //call array names --> will have the places to eat names
             String[] names = { "2mato", "Starbucks", "Chick Fil La", "Hissho", "Wild Greens", "Mondos",
                     "Pollo", "Masala", "Salsaritas", "Einsteins", "Au Bon Pain"};
-            String name = names[(int) (Math.random() * names.length)];
+            String name = names[(int) (Math.random() * names.length)]; //math.random
             System.out.println("You should eat at " + name + "\n"); //have this print out if they answer yes
 
             //menu class --> only if they answer yes because they still need to pull the information
