@@ -5,7 +5,8 @@ package com.company;
 */
 
 
-public class Food {
+public class Food
+{
     //put default phone number, why is it in grey is it becuase of phone number?
     private String address; //have default location, is this how to change address changed to string
     private String restaurantName; //modifier
@@ -19,28 +20,34 @@ public class Food {
         this.restaurantName = restaurantName;
     }
 
-    public String getAddress() {
-        return address;
+    public String getAddress()
+    {
+        return address; //returns address
     }
 
-    public void setAddress(String address) {
+    public void setAddress(String address)
+    {
         this.address = address;
     }
 
-    public String getPhone() {
+    public String getPhone()
+    {
         return phoneNumber; //return statement
     }
 
-    public void setPhone(String value) {
+    public void setPhone(String value)
+    {
         phoneNumber = value;
     }
 
 
-    public String getRestaurantName() {
+    public String getRestaurantName()
+    {
         return restaurantName;
     }
 
-    public void setRestaurantName(String restaurantName) {
+    public void setRestaurantName(String restaurantName)
+    {
         this.restaurantName = restaurantName;
     }
 

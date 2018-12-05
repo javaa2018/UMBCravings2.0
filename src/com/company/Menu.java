@@ -3,6 +3,9 @@ package com.company;
 //import java.util.Arrays;
 import java.util.Scanner;
 
+/*int bowl=6.10;
+int bowlD=8; //entree and drink
+*/
 public class Menu {
     void information() {
         System.out.println("Now that you have answered all the questions and have seen the possible food ");
@@ -60,11 +63,16 @@ public class Menu {
                     System.out.println("This place is located in Commons on Level 2");
                     System.out.println("Open: Monday - Thursday @ 11 am -8pm" +", Friday 11 am- 6 pm,  & Sunday 12pm - 6pm" + "\n");
                     System.out.println("Food options include:" );
-                    double flex = 6.10 + 2; //need a math class!
-                    // System.out.println("");
-                    System.out.println("The meal above will go over into your flex dollars and make your total " + flex + " which is 2 dollars above the meal plan cost" );
-                   // System.out.println(""); //sushi w/ drink or fried rice, brown or white w/ protein/tofu goes over
-                    //System.out.println("");
+                    System.out.println("Sushi");
+                    System.out.println("Fried, brown or white rice w/ non-tempura chicken, veggies or tofu");
+                    System.out.println("If you want a drink with that...");
+                    double HisshoM=6.10; //hissho meal deal
+                    double flex = 6.10 + 2; //hissho meal & drink
+                    if(flex>HisshoM || flex<HisshoM) //logical operator
+                    {
+                        System.out.println("\nThe meal above will go over into your flex dollars and make your total " + flex + " which is 2 dollars above the meal plan cost" );
+                    }
+
                     break;
                 case 5:
                     System.out.println("Wild Greens");
