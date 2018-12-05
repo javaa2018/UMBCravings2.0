@@ -28,15 +28,35 @@ public class Menu {
                 case 1:
                     System.out.println("2mato");
                     //insert meal options and other details like times
-                    System.out.println("unch ");
+                    System.out.println("This place is located in Commons on Level 1");
+                    System.out.println("Open: Monday - Saturday @ 11 am -8pm" + "\n" + "Sunday @ Noon - 8 pm");
+                    System.out.println("Food options include:" );
+                    System.out.println("2 slices of pizza with a drink" );
+                    System.out.println("Calzone, no drink");
+                    System.out.println("Make your own Pasta (protein, pasta noddles, and 3 toppings) with drink");
                     break;
                 case 2:
+                    System.out.println("Starbucks");
 
                     //insert meal options and other details like times
+                    System.out.println("NOTE!! Starbucks is a breakfast place, however you can order food during all open hours");
+                    System.out.println(" "); //space to make things a little neater
+                    System.out.println("This place is located in the University Center");
+                    System.out.println("Open: Monday - Saturday @ 7:30 am - 10 pm");
+                    System.out.println("Food options include:");
+                    System.out.println("Oatmeal");
+                    System.out.println("Croissant with a basic coffee ");
+                    System.out.println("Breakfast sandwiches/wraps (spinach, bacon and cheese, ham and cheese");
                     break;
                 case 3:
                     System.out.println("Chick-fil-a");
                     //insert meal options
+                    System.out.println("NOTE!! Menu is subject to change based on the time of day");
+                    System.out.println(" ");//space to make things easier to read
+                    System.out.println("This place is located in the University Center");
+                    System.out.println("Open: Monday - Saturday @ 7:30 am - 8 pm");
+                    System.out.println("Food options include:");
+                    System.out.println("Chick-fil-la sandwiches and side (fries, fruit, or hash browns) with drink");
                     break;
                 case 4:
                     System.out.println("Hissho");
