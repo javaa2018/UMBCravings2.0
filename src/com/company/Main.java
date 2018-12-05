@@ -20,7 +20,7 @@ public class Main {
 
         //prints out date and time, need to put constricitons of time in the loops
         Calendar date = Calendar.getInstance(); //see if can have in separate time class instead of in main, might need in main though b/c gets angry
-        date.set(Calendar.HOUR_OF_DAY, 11); //11 pm
+        date.set(Calendar.HOUR_OF_DAY, 11); //maybe just display current time this sets the time and date
         date.set(Calendar.MINUTE, 00);
         date.set(Calendar.SECOND, 0);
 

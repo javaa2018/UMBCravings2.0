@@ -14,9 +14,7 @@ public class Dairy {
         String dairyAnswer = user.nextLine();
 
         if (dairyAnswer.equals(no)) { //in here have statment that will only show what's open at 11
-            System.out.println("Here are some places you can eat dairy free.\n"); //have this print out at the end of questions
-            //lunch hissho sushi or chicken, mondos w/out cheese, pollo, wild greens, masala?, salsaritas w/out cheese, chickfila
-            //2mato pasta w/marina, einsteins chicken sandwitch , not einsteins b/c made w/ dairy
+            System.out.println("Here are some places you can eat dairy free-> \nHissho, Mondos, Pollo, Wild Greens, Salsaritas, Chickfila, 2mato, Starbucks .\n");
         }else{
             System.out.println("Thank you for your time.\n"); //have this print out at the end somehow, also if not gluten free
         }

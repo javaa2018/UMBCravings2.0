@@ -17,9 +17,9 @@ public class RandomFood {
         System.out.println("Would you like to randomly select a food option for the current meal period?");
         String randomAnswer = user.nextLine();
 
-        //insert an array here for the random food selection option
+        //call array foodTable[]or switch statement not sure
 
-        if (randomAnswer.equals(yes)) {//if the user chooses yes, no restriction for time?
+        if (randomAnswer.equals(yes)) {
             System.out.println("You should eat at...\n"); //have this print out if they answer yes
             // have something that will terminate the program if they answer yes
             System.exit(0);

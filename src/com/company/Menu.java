@@ -19,20 +19,16 @@ public class Menu {
         for (int i = 0; i < foodTable.length; i++){
             System.out.println(foodTable[i]);
     }
-
-
             Scanner user = new Scanner(System.in);
             System.out.println("Please type in the number below that correlates with the chart above to get more information:"); //also show which one is which 1= what
             int foodAnswer = user.nextInt();
-
-
-
 
             //switch statement here that gives certain information on places based on the number the user inputs
             switch (foodAnswer) {
                 case 1:
                     System.out.println("2mato");
                     //insert meal options and other details like times
+                    System.out.println("unch ");
                     break;
                 case 2:
 

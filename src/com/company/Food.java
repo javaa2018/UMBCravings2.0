@@ -4,15 +4,16 @@ package com.company;
 
 public class Food {
     /*
-    *fix food class so phone works
+     *fix food class so phone works
      *vegetarian, glutenfree call in here, call the diet class into the main class
      * something.glutenFree
      *from employee class has encapsulation
      *data attribute of employees
      * have public abstract class estName{  put in separate class!! will have some of this information
      * method overloading in here for food place names
+     * */
 
-
+/*
 
     private String phoneNumber; //put default phone number, why is it in grey is it becuase of phone number?
     private Address address; //have default location, is this how to change address changed to string
@@ -60,10 +61,11 @@ public class Food {
         System.out.println();
     }
 
-*/
+
 }
 
-
+*/
+}
 
     //have one default location for the constructor
     //overload with all the different places
