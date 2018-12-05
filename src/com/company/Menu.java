@@ -9,7 +9,7 @@ public class Menu {
         System.out.println("options here on campus you probably want some more information on the establishments.");
         System.out.println("--------------------------------------------------------");
 
-        //insert an array here with numbers and restuarants so 2 rows and 12 columns --> remember array index starts at 0
+        //array w/ numbers corralating w/ places to eat
         String foodTable[] = {"1 - 2mato", "2 - Starbucks", "3 - Chick Fil La",
                 "4 - Hissho", "5 - Wild Greens", "6 - Mondos", "7 - Pollo",
                 "8 - Masala", "9 - Salsaritas", "10 - Einsteins", "11 - Au Bon Pain"};

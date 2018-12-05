@@ -1,26 +1,26 @@
 package com.company;
 
-public class Food
-{
+
+
+public class Food {
     /*
+    *fix food class so phone works
      *vegetarian, glutenfree call in here, call the diet class into the main class
      * something.glutenFree
-     *
      *from employee class has encapsulation
-     *data atribute of employees
-     *
+     *data attribute of employees
      * have public abstract class estName{  put in separate class!! will have some of this information
      * method overloading in here for food place names
-     *
+
 
 
     private String phoneNumber; //put default phone number, why is it in grey is it becuase of phone number?
-    private Address address; //have default location, something is wrong with address
-    private String restaurantName; // restuarant name
+    private Address address; //have default location, is this how to change address changed to string
+    private String restaurantName; //modifier
 
-        class Diet(String phoneNumber, Address address, restaurantName)
+        public Food(String phone, Address address, String restaurantName)//added string to restaurant name and fixed red for phone
     {  //constructor w/ no return type same name as class, want to call in MAIN somehow!!
-            phoneNumber = phone; //figure out why phone numberi s red??
+            phoneNumber = phone; //figure out why phone numberi s red?? do need name here
             //calls program in another file
             this.address = address; //not sure if we are going to put actual address or where it is in commons? Will fill out later
             this.phoneNumber = phoneNumber;
@@ -28,18 +28,18 @@ public class Food
         }
 
         public Address getAddress() {
-            return phoneNumber;
+            return address;
         }
 
         public void setAddress(Address address) { //do i have to set address for all of them becuase they are different mightjjust do method overloading
             this.address = address;
         }
 
-        public String getPhone() { //name different?
+        public String getPhone() {
             return phoneNumber;
         }
 
-        public void setPhone(String value) {
+        public void setPhone (String value) {
             phoneNumber = value;
         }
 
@@ -54,25 +54,24 @@ public class Food
     }
 
     public void printFood()  //data encapsulation
-    //will print the default place to eat for the diet class or cosntructor overload
+    //will print the default place to eat for the diet class or constructor overload
     {
         System.out.println(address+restaurantName+phoneNumber); //will print out the address restuarnat name and phone number
         System.out.println();
     }
-*/
 
+*/
 }
-    //have method overloading down here
-    //set the time and date
-    //don't pull actual date
+
+
+
     //have one default location for the constructor
     //overload with all the different places
+    //not sure how to do this b/c all have same type need different arguments
     //look at birthday class for this in github!
 
-    //have location, zip..things to do with address and create a bunch of objects based on a certain class
-    //call the method through the loop
+    //call the method through the a loop
     //maybe have a while loop
-    // employee.java file encapsulation
 
 
 

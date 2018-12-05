@@ -28,7 +28,6 @@ public class Main {
         System.out.println("Welcome to UMBCravings!\n");
         System.out.println("This program will ask you several questions to help you decide where to eat during the current meal period");
         System.out.println("It is " + date.getTime() + " so the current meal period is lunch from 11-4pm");
-        System.out.println("Please follow the directions below."); //can we delete this?
         System.out.println("Please carefully read the following questions, then answer either yes or no:");
         System.out.println("--------------------------");
 
@@ -58,9 +57,23 @@ public class Main {
         Menu menu = new Menu();
         menu.information();
 
+        //object created subclass
         Subclass s = new Subclass("umbcrd@umbc.edu"); //subclass for nutritionists info to contact, can be moved somewhere else but should be near the end before the thank you
-        //object
         s.getEmail(); //method passing argument by value
+
+        /*maybe have print line somewhere else in food class and call in the main??
+        Address a1 = new Address("321", "Juniper Street", "Seattle", "WA", "12345");
+        Address a2 = new Address("123", "North Main Street", "Willoughby", "OH", "54321");
+
+
+        Food ee1 = new Food("Salsaritas", "717-555-1212", a1);
+        Food ee2 = new Food("Pollo", "717-543-212", a2);
+
+        ee1.printFood();
+        System.out.println();
+        ee1.printFood();
+        */
+
     }
 }
 
