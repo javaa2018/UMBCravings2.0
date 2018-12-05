@@ -20,7 +20,18 @@ public class RandomFood {
         //call array foodTable[]or switch statement not sure
 
         if (randomAnswer.equals(yes)) {
-            System.out.println("You should eat at...\n"); //have this print out if they answer yes
+            String[] names = { "2mato", "Starbucks", "Chick Fil La", "Hissho", "Wild Greens", "Mondos",
+                    "Pollo", "Masala", "Salsaritas", "Einsteins", "Au Bon Pain"};
+            String name = names[(int) (Math.random() * names.length)];
+            System.out.println("You should eat at " + name + "\n"); //have this print out if they answer yes
+            //menu class --> only if they answer yes because they still need to pull the information
+            Menu menu = new Menu();
+            menu.information();
+
+            //object created subclass --> if they answer yes the program takes on a different route but this information still needs to be presented
+            Subclass s = new Subclass("umbcrd@umbc.edu"); //subclass for nutritionists info to contact, can be moved somewhere else but should be near the end before the thank you
+            s.getEmail(); //method passing argument by value
+
             // have something that will terminate the program if they answer yes
             System.exit(0);
         }
