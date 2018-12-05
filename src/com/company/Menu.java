@@ -64,9 +64,11 @@ public class Menu {
                     System.out.println("This place is located in Commons on Level 2");
                     System.out.println("Open: Monday - Saturday @ 11 am -8pm" + "\n");
                     System.out.println("Food options include:" );
-                    System.out.println("" );
-                    System.out.println("");
-                    System.out.println("");
+                    double flex = 6.10 + 2;
+                    // System.out.println("");
+                    System.out.println("The meal above will go over into your flex dollars and make your total " + flex + " which is 2 dollars above the meal plan cost" );
+                   // System.out.println("");
+                    //System.out.println("");
                     break;
                 case 5:
                     System.out.println("Wild Greens");
