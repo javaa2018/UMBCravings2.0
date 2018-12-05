@@ -29,7 +29,7 @@ public class Menu {
                     System.out.println("2mato");
                     //insert meal options and other details like times
                     System.out.println("This place is located in Commons on Level 1");
-                    System.out.println("Open: Monday - Saturday @ 11 am -8pm" + "\n" + "Sunday @ Noon - 8 pm");
+                    System.out.println("Open: Monday - Saturday @ 11 am -11pm" + "\n" + "Sunday @ Noon - 8 pm");
                     System.out.println("Food options include:" );
                     System.out.println("2 slices of pizza with a drink" );
                     System.out.println("Calzone, no drink");
@@ -61,34 +61,82 @@ public class Menu {
                 case 4:
                     System.out.println("Hissho");
                     //meal plan and times
+                    System.out.println("This place is located in Commons on Level 2");
+                    System.out.println("Open: Monday - Saturday @ 11 am -8pm" + "\n");
+                    System.out.println("Food options include:" );
+                    System.out.println("" );
+                    System.out.println("");
+                    System.out.println("");
                     break;
                 case 5:
                     System.out.println("Wild Greens");
                     //meal plan and times
+                    System.out.println("This place is located in Commons on Level 1");
+                    System.out.println("Open: Monday - Saturday @ 11 am -7pm" + "\n");
+                    System.out.println("Food options include:" );
+                    System.out.println("" );
+                    System.out.println("");
+                    System.out.println("");
                     break;
                 case 6:
                     System.out.println("Mondos");
                     //meal plan and times
+                    System.out.println("This place is located in Commons on Level 2");
+                    System.out.println("Open: Monday - Saturday @ 11 am -8pm" + "\n");
+                    System.out.println("Food options include:" );
+                    System.out.println("" );
+                    System.out.println("");
+                    System.out.println("");
                     break;
                 case 7:
                     System.out.println("Pollo");
                     //meal plan and times
+                    System.out.println("This place is located in Commons on Level 1");
+                    System.out.println("Open: Monday - Saturday @ 11 am -8pm" + "\n");
+                    System.out.println("Food options include:" );
+                    System.out.println("" );
+                    System.out.println("");
+                    System.out.println("");
                     break;
                 case 8:
                     System.out.println("Masala");
                     //meal plan and times
+                    System.out.println("This place is located in Commons on Level 1");
+                    System.out.println("Open: Monday - Saturday @ 11 am -7pm" + "\n");
+                    System.out.println("Food options include:" );
+                    System.out.println("" );
+                    System.out.println("");
+                    System.out.println("");
                     break;
                 case 9:
                     System.out.println("Salsaritas");
                     //meal plan and times
+                    System.out.println("This place is located in Commons on Level 2");
+                    System.out.println("Open: Monday - Saturday @ 11 am -8pm" + "\n" + "Sunday");
+                    System.out.println("Food options include:" );
+                    System.out.println("" );
+                    System.out.println("");
+                    System.out.println("");
                     break;
                 case 10:
                     System.out.println("Einsteins");
                     //meal plan and times
+                    System.out.println("This place is located in the Library Entrance");
+                    System.out.println("Open: Monday - Saturday @ 7:30 am -10pm" + "\n");
+                    System.out.println("Food options include:" );
+                    System.out.println("" );
+                    System.out.println("");
+                    System.out.println("");
                     break;
                 case 11:
                     System.out.println("Au Bon Pain");
                     //meal plan and times
+                    System.out.println("This place is located in Commons on Level 1");
+                    System.out.println("Open: Monday - Saturday @ 7:30 am -6pm" + "\n");
+                    System.out.println("Food options include:" );
+                    System.out.println("" );
+                    System.out.println("");
+                    System.out.println("");
                     break;
                 default:
                     System.out.println("Invalid input");
