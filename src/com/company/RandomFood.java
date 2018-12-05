@@ -17,13 +17,16 @@ public class RandomFood {
         System.out.println("Would you like to randomly select a food option for the current meal period?");
         String randomAnswer = user.nextLine();
 
-        //call array foodTable[]or switch statement not sure
+
 
         if (randomAnswer.equals(yes)) {
+
+            //call array names --> will have the places to eat names
             String[] names = { "2mato", "Starbucks", "Chick Fil La", "Hissho", "Wild Greens", "Mondos",
                     "Pollo", "Masala", "Salsaritas", "Einsteins", "Au Bon Pain"};
             String name = names[(int) (Math.random() * names.length)];
             System.out.println("You should eat at " + name + "\n"); //have this print out if they answer yes
+
             //menu class --> only if they answer yes because they still need to pull the information
             Menu menu = new Menu();
             menu.information();
