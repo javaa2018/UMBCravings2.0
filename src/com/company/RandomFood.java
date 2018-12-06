@@ -34,7 +34,6 @@ public class RandomFood {
 
             System.exit(0);
         }
-
         //have it call the food options class into it so it may give them more information on the food option
         else
             System.out.println("No? Then please continue onto the next question.\n"); //will appear if they chose the option no

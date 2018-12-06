@@ -79,18 +79,23 @@ public class Menu {
                     System.out.println("This place is located in Commons on Level 1");
                     System.out.println("Open: Monday - Thursday @ 11 am -7pm" + " & Friday 11am - 4pm" + "\n");
                     System.out.println("Food options include:" );
-                    System.out.println("" );
-                    System.out.println("");
-                    System.out.println("");
+                    System.out.println("Romaine or quinoa" );
+                    System.out.println("4 toppings");
+                    System.out.println("Chicken, tofu, beans, or tuna salad");
+                    System.out.println("Choice of dressing");
+                    System.out.println("Choice of pita bread or croutons");
                     break;
                 case 6:
                     System.out.println("Mondos");
                     System.out.println("This place is located in Commons on Level 2");
                     System.out.println("Open: Monday - Thursday @ 11 am -8p m" + " & Friday 11am - 6pm"+ "\n");
                     System.out.println("Food options include:" );
-                    System.out.println("" );
-                    System.out.println("");
-                    System.out.println("");
+                    System.out.println("Choice of bread-white, cheese, wheat, oat or flatbread");
+                    System.out.println("Choice of protein meat or tuna");
+                    System.out.println("Unlimited veggie toppings");
+                    System.out.println("Choice of sauce lik mayo, ranch, etc");
+                    System.out.println("Choice of chips or fruit");
+
                     break;
                 case 7:
                     System.out.println("Pollo");
@@ -98,38 +103,43 @@ public class Menu {
                     System.out.println("This place is located in Commons on Level 1");
                     System.out.println("Open: Monday - Thursday @ 11 am -8pm & Friday 11 am - 6pm"+ "\n");
                     System.out.println("Food options include:" );
-                    System.out.println("" );
-                    System.out.println("");
-                    System.out.println("");
+                    System.out.println("4 piece tenders w/ spiked fries or whole fruit");
+                    System.out.println("Chicken and waffles no side");
+                    System.out.println("Drink [Bottle water/ fountain beverage]");
+
                     break;
                 case 8:
                     System.out.println("Masala");
-                    //meal plan and times
                     System.out.println("This place is located in Commons on Level 1");
-                    System.out.println("Open: Monday - Thursday @ 11 am -7pm & Friday 11 am - 2pm" + "\n");
+                    System.out.println("Open: Monday - Thursday @ 11 am - 7 pm & Friday 11 am - 2pm" + "\n");
                     System.out.println("Food options include:" );
-                    System.out.println("" );
-                    System.out.println("");
-                    System.out.println("");
+                    System.out.println("Medium bowl with chicken or veggies and sauce of the day" );
+                    System.out.println("Naanwich");
+                    System.out.println("5 samosas & chutney");
+                    System.out.println("Drink [Bottle water/ fountain beverage]");
+
                     break;
                 case 9:
                     System.out.println("Salsaritas");
-                    //meal plan and times
                     System.out.println("This place is located in Commons on Level 2");
                     System.out.println("Open: Monday - Thursday @ 11 am -8pm" + "\n" + "& Friday 11am - 7pm ");
                     System.out.println("Food options include:" );
-                    System.out.println("" );
-                    System.out.println("");
-                    System.out.println("");
+                    System.out.println("Two tacos with protein(pork,beef,chicken) or veggie\n" );
+                    System.out.println("Quesadilla with protein or veggie\n");
+                    System.out.println("Burrito Bowl with protein or veggie\n");
+                    System.out.println("Burrito w/protein or veggie");
+                    System.out.println("Side of chips or fruit");
+                    System.out.println("Drink [Bottle water/ fountain beverage]");
+
                     break;
                 case 10:
                     System.out.println("Einsteins");
                     System.out.println("This place is located in the Library Entrance");
                     System.out.println("Open: Monday - Saturday @ 7:30 am -10pm" + "\n");
                     System.out.println("Food options include:" );
-                    System.out.println("" );
-                    System.out.println("");
-                    System.out.println("");
+                    System.out.println("2 bagels with schmear with coffee/tea" );
+                    System.out.println("Breakfast egg sandwiches");
+                    System.out.println("Crispy chicken sandwich[lunch]");
                     break;
                 case 11:
                     System.out.println("Au Bon Pain");
