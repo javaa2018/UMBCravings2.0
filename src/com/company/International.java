@@ -18,7 +18,7 @@ public class International {
         if (internationalAnswer.equals(yes)) { //use logical operators to create new conditional boolean, also use time for constraints depending on the time
             System.out.println("Foreign food options->\nHissho, Masala & Salsaritas\n"); //show foreign food options
         }else {
-            System.out.println("Thank you for your input. Please continue with the following questions,\n"); //have this print out at the end somehow, also if not gluten free
+            System.out.println("Thank you for your input. Please continue with the following questions.\n"); //have this print out at the end somehow, also if not gluten free
         }
     }
 }
