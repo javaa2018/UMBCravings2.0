@@ -19,11 +19,6 @@ public class Main {
     public static void main(String[] args) {
 
         Calendar date = Calendar.getInstance();
-        /*date.set(Calendar.HOUR_OF_DAY, 11);
-        *delete this later
-        date.set(Calendar.MINUTE, 00);
-        date.set(Calendar.SECOND, 0);
-        */
 
 // below is printing the directions along with a brief description of the program itself
         System.out.println("Welcome to UMBCravings!\n");
@@ -68,7 +63,10 @@ public class Main {
 
         //object created called subclass
         Subclass s = new Subclass("umbcrd@umbc.edu"); //subclass for nutritionists info to contact, can be moved somewhere else but should be near the end before the thank you
+        Subclass n = new Subclass("Nicole Arcilla's", "umbe.umbc.edu");
         s.getEmail(); //method passing argument by value
+
+        System.out.println("Thanks for using UMBCravings hope to see you again soon!");
 
     }
 }

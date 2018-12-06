@@ -7,4 +7,8 @@ public class Subclass extends Nutritionist //extends the nutrionist class with a
          super (email); //calls CONSTRUCTOR of the superclass nutrionist w/ this keyword & passes email
     }
 
+    public Subclass(String name, String email) { //method overloading of constructors
+
+        super(name,email);
+    }
 }
