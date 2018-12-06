@@ -3,9 +3,7 @@ package com.company;
 //import java.util.Arrays;
 import java.util.Scanner;
 
-/*int bowl=6.10;
-int bowlD=8; //entree and drink
-*/
+
 public class Menu {
     void information() {
         System.out.println("Now that you have answered all the questions and have seen the possible food ");
@@ -13,7 +11,7 @@ public class Menu {
         System.out.println("--------------------------------------------------------");
 
         //array w/ numbers corralating w/ places to eat
-        String foodTable[] = {"1 - 2mato", "2 - Starbucks", "3 - Chick Fil La",
+        String foodTable[] = {"1 - 2mato", "2 - Starbucks", "3 - Chick-fil-a",
                 "4 - Hissho", "5 - Wild Greens", "6 - Mondos", "7 - Pollo",
                 "8 - Masala", "9 - Salsaritas", "10 - Einsteins", "11 - Au Bon Pain"};
 
@@ -77,7 +75,7 @@ public class Menu {
                 case 5:
                     System.out.println("Wild Greens");
                     System.out.println("This place is located in Commons on Level 1");
-                    System.out.println("Open: Monday - Thursday @ 11 am -7pm" + " & Friday 11am - 4pm" + "\n");
+                    System.out.println("Open: Monday - Thursday @ 11am -7pm" + " & Friday 11am - 4pm" + "\n");
                     System.out.println("Food options include:" );
                     System.out.println("Romaine or quinoa" );
                     System.out.println("4 toppings");
@@ -88,9 +86,9 @@ public class Menu {
                 case 6:
                     System.out.println("Mondos");
                     System.out.println("This place is located in Commons on Level 2");
-                    System.out.println("Open: Monday - Thursday @ 11 am -8p m" + " & Friday 11am - 6pm"+ "\n");
+                    System.out.println("Open: Monday - Thursday @ 11am -8pm" + " & Friday 11am - 6pm"+ "\n");
                     System.out.println("Food options include:" );
-                    System.out.println("Choice of bread-white, cheese, wheat, oat or flatbread");
+                    System.out.println("Choice of bread- white, cheese, wheat, oat or flatbread");
                     System.out.println("Choice of protein meat or tuna");
                     System.out.println("Unlimited veggie toppings");
                     System.out.println("Choice of sauce lik mayo, ranch, etc");
@@ -99,9 +97,8 @@ public class Menu {
                     break;
                 case 7:
                     System.out.println("Pollo");
-                    //meal plan and times
                     System.out.println("This place is located in Commons on Level 1");
-                    System.out.println("Open: Monday - Thursday @ 11 am -8pm & Friday 11 am - 6pm"+ "\n");
+                    System.out.println("Open: Monday - Thursday @ 11am - 8pm & Friday 11am - 6pm"+ "\n");
                     System.out.println("Food options include:" );
                     System.out.println("4 piece tenders w/ spiked fries or whole fruit");
                     System.out.println("Chicken and waffles no side");
@@ -111,7 +108,7 @@ public class Menu {
                 case 8:
                     System.out.println("Masala");
                     System.out.println("This place is located in Commons on Level 1");
-                    System.out.println("Open: Monday - Thursday @ 11 am - 7 pm & Friday 11 am - 2pm" + "\n");
+                    System.out.println("Open: Monday - Thursday @ 11am - 7pm & Friday 11am - 2pm" + "\n");
                     System.out.println("Food options include:" );
                     System.out.println("Medium bowl with chicken or veggies and sauce of the day" );
                     System.out.println("Naanwich");
@@ -122,7 +119,7 @@ public class Menu {
                 case 9:
                     System.out.println("Salsaritas");
                     System.out.println("This place is located in Commons on Level 2");
-                    System.out.println("Open: Monday - Thursday @ 11 am -8pm" + "\n" + "& Friday 11am - 7pm ");
+                    System.out.println("Open: Monday - Thursday @ 11 am -8 pm & Friday 11am - 7pm ");
                     System.out.println("Food options include:" );
                     System.out.println("Two tacos with protein(pork,beef,chicken) or veggie\n" );
                     System.out.println("Quesadilla with protein or veggie\n");
@@ -135,7 +132,7 @@ public class Menu {
                 case 10:
                     System.out.println("Einsteins");
                     System.out.println("This place is located in the Library Entrance");
-                    System.out.println("Open: Monday - Saturday @ 7:30 am -10pm" + "\n");
+                    System.out.println("Open: Monday - Thursday @ 7:30am - 10pm, Friday 7:30pm - 3pm, Saturday 12pm - 4pm, Sunday 1pm - 8pm" + "\n");
                     System.out.println("Food options include:" );
                     System.out.println("2 bagels with schmear with coffee/tea" );
                     System.out.println("Breakfast egg sandwiches");
@@ -144,7 +141,7 @@ public class Menu {
                 case 11:
                     System.out.println("Au Bon Pain");
                     System.out.println("This place is located in Commons on Level 1");
-                    System.out.println("Open: Monday - Thursday @ 7:30 am -10pm" + ", Friday 7:30 am - 3pm, Saturday 12pm-4pm, Sunday 1-8pm" + "\n");
+                    System.out.println("Open: Monday - Thursday @ 7:30 am - 10pm" + ", Friday 7:30 am - 3pm, Saturday 12pm - 4pm, Sunday 1 - 8pm" + "\n");
                     System.out.println("Food options include:" );
                     System.out.println("" );
                     System.out.println("");

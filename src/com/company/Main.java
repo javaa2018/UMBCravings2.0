@@ -56,13 +56,13 @@ public class Main {
         String a1 = "1000 Hilltop Circle UMBC Commons, Baltimore MD 21250"; //address string
 
         Food f1 = new Food ("Wild Greens", "443-612-8380",  a1); //food object for gluten free
-        Food f2 = new Food ("Au Bon Pain", "443-612-3663", a1);
-        System.out.println("\nHere are the locations & phone numbers where you can eat gluten free");
+        Food f2 = new Food ("Salsaritas", "443-612-3663", a1);
+        System.out.println("\nHere are the most popular places and phone numbers where you can eat gluten free ");
         f1.printFood();
         f2.printFood();
 
         //object created called subclass
-        Subclass s = new Subclass("umbcrd@umbc.edu"); //subclass for nutritionists info to contact, can be moved somewhere else but should be near the end before the thank you
+        Subclass s = new Subclass("umbcrd@umbc.edu"); //subclass for nutritionists info to contact,
         Subclass n = new Subclass("Nicole Arcilla's", "umbe.umbc.edu");
         s.getEmail(); //method passing argument by value
 

@@ -53,7 +53,6 @@ public class Food
 
 
     public void printFood()  //data encapsulation
-    //will print the default place to eat for the diet class or constructor overload
     {
         System.out.println("Place name: " + restaurantName + "\t"+ "Address: " + address +"\t"+ "Phone number: " + phoneNumber); //will print out the address restuarnat name and phone number
         System.out.println();
